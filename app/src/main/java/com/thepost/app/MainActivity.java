@@ -125,15 +125,15 @@ public class MainActivity extends AppCompatActivity {
                     showOptions();
                     return false;
 
-                case R.id.navigation_slcm:
-                    if(logged_static) {
-                        checkCredentials();
-                    }
-                    else{
-                        initializeFragment(R.id.slcmContainer);
-                        Log.e("Trying", "Visi");
-                    }
-                    return true;
+//                case R.id.navigation_slcm:
+//                    if(logged_static) {
+//                        checkCredentials();
+//                    }
+//                    else{
+//                        initializeFragment(R.id.slcmContainer);
+//                        Log.e("Trying", "Visi");
+//                    }
+//                    return true;
 
                 case R.id.navigation_notices:
                     initializeFragment(R.id.noticesContainer);
@@ -618,10 +618,10 @@ public class MainActivity extends AppCompatActivity {
             }
 
             //Handle SLCM Notification
-            if (Boolean.parseBoolean((String) getIntent().getExtras().get("isSLCM"))) {
-
-                ((BottomNavigationView) findViewById(R.id.nav_view)).setSelectedItemId(R.id.navigation_slcm);
-            }
+//            if (Boolean.parseBoolean((String) getIntent().getExtras().get("isSLCM"))) {
+//
+//                ((BottomNavigationView) findViewById(R.id.nav_view)).setSelectedItemId(R.id.navigation_slcm);
+//            }
 
             //Handle New Notice Notification
             if (Boolean.parseBoolean((String) getIntent().getExtras().get("isNotice"))) {

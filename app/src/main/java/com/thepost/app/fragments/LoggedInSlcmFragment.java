@@ -180,10 +180,10 @@ public class LoggedInSlcmFragment extends Fragment {
 
             MainActivity.logged_static = false;
 
-            if(((BottomNavigationView)getActivity().findViewById(R.id.nav_view)).getSelectedItemId() == R.id.navigation_slcm){
-
-                ((BottomNavigationView)getActivity().findViewById(R.id.nav_view)).setSelectedItemId(R.id.navigation_slcm);
-            }
+//            if(((BottomNavigationView)getActivity().findViewById(R.id.nav_view)).getSelectedItemId() == R.id.navigation_slcm){
+//
+//                ((BottomNavigationView)getActivity().findViewById(R.id.nav_view)).setSelectedItemId(R.id.navigation_slcm);
+//            }
 
         }
 
@@ -303,9 +303,9 @@ public class LoggedInSlcmFragment extends Fragment {
                                     view.findViewById(R.id.loadingScreenSlcmBasic).setVisibility(View.GONE);
                                     MainActivity.logged_static = false;
 
-                                    if(((BottomNavigationView)getActivity().findViewById(R.id.nav_view)).getSelectedItemId() == R.id.navigation_slcm){
-                                        ((BottomNavigationView)getActivity().findViewById(R.id.nav_view)).setSelectedItemId(R.id.navigation_slcm);
-                                    }
+//                                    if(((BottomNavigationView)getActivity().findViewById(R.id.nav_view)).getSelectedItemId() == R.id.navigation_slcm){
+//                                        ((BottomNavigationView)getActivity().findViewById(R.id.nav_view)).setSelectedItemId(R.id.navigation_slcm);
+//                                    }
                                 }
 
                                 if (!response.isSuccessful()) {

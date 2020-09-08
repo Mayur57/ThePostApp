@@ -196,11 +196,11 @@ public class SlcmFragment extends Fragment {
                             view.findViewById(R.id.loadingScreenSlcm).setVisibility(View.GONE);
 
                             MainActivity.logged_static = true;
-
-                            if(((BottomNavigationView)getActivity().findViewById(R.id.nav_view)).getSelectedItemId() == R.id.navigation_slcm){
-
-                                ((BottomNavigationView)getActivity().findViewById(R.id.nav_view)).setSelectedItemId(R.id.navigation_slcm);
-                            }
+//
+//                            if(((BottomNavigationView)getActivity().findViewById(R.id.nav_view)).getSelectedItemId() == R.id.navigation_slcm){
+//
+//                                ((BottomNavigationView)getActivity().findViewById(R.id.nav_view)).setSelectedItemId(R.id.navigation_slcm);
+//                            }
 
                             view.findViewById(R.id.slcmLoginCard).setVisibility(View.VISIBLE);
                             view.findViewById(R.id.loadingScreenSlcm).setVisibility(View.GONE);

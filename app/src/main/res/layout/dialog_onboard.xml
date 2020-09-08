@@ -109,37 +109,37 @@
         </LinearLayout>
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:gravity="center"
-            android:orientation="horizontal">
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
 
-            <com.airbnb.lottie.LottieAnimationView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_marginEnd="8dp"
-                android:scaleType="centerCrop"
-                app:lottie_autoPlay="true"
-                app:lottie_fileName="slcm2.json"
-                app:lottie_loop="true"
-                app:lottie_speed="0.8"/>
+<!--&lt;!&ndash;            <com.airbnb.lottie.LottieAnimationView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="48dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="48dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginEnd="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:scaleType="centerCrop"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:lottie_autoPlay="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:lottie_fileName="slcm2.json"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:lottie_loop="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:lottie_speed="0.8"/>&ndash;&gt;-->
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:autoLink="web"
-                android:lineSpacingMultiplier="1.5"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:paddingBottom="10dp"
-                android:text="Sit back and relax while we deliver your attendance and marks to you."
-                android:textColor="?attr/primaryTextColor"
-                android:textSize="16sp" />
+<!--&lt;!&ndash;            <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:autoLink="web"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:lineSpacingMultiplier="1.5"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:paddingStart="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:paddingEnd="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:paddingBottom="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:text="Sit back and relax while we deliver your attendance and marks to you."&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textColor="?attr/primaryTextColor"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textSize="16sp" />&ndash;&gt;-->
 
-        </LinearLayout>
+<!--        </LinearLayout>-->
 
         <LinearLayout
             android:layout_width="match_parent"
